@@ -177,7 +177,7 @@ export default function DepositPage() {
                 <div>
                   <h3 className="text-lg font-bold mb-2">Receive Deposit Instructions</h3>
                   <p className="text-gray-700">
-                    After selecting your vehicle, you'll receive deposit instructions that include the required deposit amount and payment options.
+                    After selecting your vehicle, you&apos;ll receive deposit instructions that include the required deposit amount and payment options.
                   </p>
                 </div>
               </div>
@@ -211,7 +211,7 @@ export default function DepositPage() {
                 <div>
                   <h3 className="text-lg font-bold mb-2">Deposit Confirmation</h3>
                   <p className="text-gray-700">
-                    Once your deposit is received and processed, you'll receive a confirmation email. For auction vehicles, we'll begin bidding on your behalf. For direct purchase vehicles, the vehicle will be reserved for you.
+                    Once your deposit is received and processed, you&apos;ll receive a confirmation email. For auction vehicles, we&apos;ll begin bidding on your behalf. For direct purchase vehicles, the vehicle will be reserved for you.
                   </p>
                 </div>
               </div>
@@ -225,7 +225,7 @@ export default function DepositPage() {
                 <div>
                   <h3 className="text-lg font-bold mb-2">Application of Deposit</h3>
                   <p className="text-gray-700">
-                    Your deposit is applied toward the final purchase price of your vehicle. After a successful purchase, you'll receive an invoice for the remaining balance, which will reflect the deposit amount already paid.
+                    Your deposit is applied toward the final purchase price of your vehicle. After a successful purchase, you&apos;ll receive an invoice for the remaining balance, which will reflect the deposit amount already paid.
                   </p>
                 </div>
               </div>

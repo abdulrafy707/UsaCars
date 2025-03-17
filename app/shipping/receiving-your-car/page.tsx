@@ -80,7 +80,7 @@ export default function ReceivingYourCarPage() {
                 <div>
                   <h3 className="text-lg font-bold mb-2">Notification of Arrival</h3>
                   <p className="text-gray-700">
-                    You will receive notification when your vehicle arrives at the destination port. This typically includes the vessel name, arrival date, and necessary reference numbers. We'll provide this information via email and through your account dashboard.
+                    You will receive notification when your vehicle arrives at the destination port. This typically includes the vessel name, arrival date, and necessary reference numbers. We&apos;ll provide this information via email and through your account dashboard.
                   </p>
                 </div>
               </div>
@@ -205,7 +205,7 @@ export default function ReceivingYourCarPage() {
           
           <div className="bg-white p-6 rounded-lg shadow-sm mb-8">
             <p className="text-gray-700 mb-4">
-              After taking possession of your vehicle, you'll need to complete local registration and ensure compliance with local regulations:
+              After taking possession of your vehicle, you&apos;ll need to complete local registration and ensure compliance with local regulations:
             </p>
             <ul className="list-disc pl-5 space-y-2 text-gray-700">
               <li>Register the vehicle with your local transportation authority</li>
@@ -255,13 +255,13 @@ export default function ReceivingYourCarPage() {
               <div>
                 <h3 className="font-medium mb-2">What if my vehicle is damaged during shipping?</h3>
                 <p className="text-gray-700">
-                  If you discover damage that wasn't noted in the pre-shipping inspection, document it thoroughly with photos and report it immediately. All vehicles are covered by marine insurance during transit, and we'll assist you with filing a claim.
+                  If you discover damage that wasn&apos;t noted in the pre-shipping inspection, document it thoroughly with photos and report it immediately. All vehicles are covered by marine insurance during transit, and we&apos;ll assist you with filing a claim.
                 </p>
               </div>
               <div>
                 <h3 className="font-medium mb-2">Can someone else pick up my vehicle on my behalf?</h3>
                 <p className="text-gray-700">
-                  Yes, but you'll need to provide them with a notarized power of attorney and authorization letter. They will also need to present their identification along with copies of your documents. Requirements vary by country, so check with our shipping department for specific instructions.
+                  Yes, but you&apos;ll need to provide them with a notarized power of attorney and authorization letter. They will also need to present their identification along with copies of your documents. Requirements vary by country, so check with our shipping department for specific instructions.
                 </p>
               </div>
             </div>

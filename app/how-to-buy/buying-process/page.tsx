@@ -70,7 +70,7 @@ export default function BuyingProcessPage() {
               make informed decisions.
             </p>
             <p className="text-gray-700">
-              Whether you're bidding on auction vehicles or making direct purchases, our goal is to make the process as
+              Whether you&apos;re bidding on auction vehicles or making direct purchases, our goal is to make the process as
               smooth and transparent as possible.
             </p>
           </div>
@@ -106,8 +106,8 @@ export default function BuyingProcessPage() {
                   <div>
                     <h4 className="font-medium mb-2">Place a Deposit</h4>
                     <p className="text-gray-700">
-                      Once you've found a vehicle you want to bid on, place a deposit to secure our bidding services.
-                      The deposit amount varies based on the vehicle's estimated value.
+                      Once you&apos;ve found a vehicle you want to bid on, place a deposit to secure our bidding services.
+                      The deposit amount varies based on the vehicle&apos;s estimated value.
                     </p>
                   </div>
                 </div>
@@ -119,7 +119,7 @@ export default function BuyingProcessPage() {
                   <div>
                     <h4 className="font-medium mb-2">Set Your Maximum Bid</h4>
                     <p className="text-gray-700">
-                      Determine the maximum amount you're willing to pay for the vehicle. Our bidding experts will use
+                      Determine the maximum amount you&apos;re willing to pay for the vehicle. Our bidding experts will use
                       this as a ceiling when bidding on your behalf.
                     </p>
                   </div>
@@ -133,7 +133,7 @@ export default function BuyingProcessPage() {
                     <h4 className="font-medium mb-2">Auction Day</h4>
                     <p className="text-gray-700">
                       On the day of the auction, our professional buyers will bid on your behalf, up to your maximum bid
-                      amount. You'll receive updates on the bidding process.
+                      amount. You&apos;ll receive updates on the bidding process.
                     </p>
                   </div>
                 </div>
@@ -145,7 +145,7 @@ export default function BuyingProcessPage() {
                   <div>
                     <h4 className="font-medium mb-2">Auction Results</h4>
                     <p className="text-gray-700">
-                      After the auction, you'll be notified of the results. If your bid was successful, we'll proceed
+                      After the auction, you&apos;ll be notified of the results. If your bid was successful, we&apos;ll proceed
                       with the purchase process. If not, your deposit can be refunded or applied to another vehicle.
                     </p>
                   </div>
@@ -181,7 +181,7 @@ export default function BuyingProcessPage() {
                   <div>
                     <h4 className="font-medium mb-2">Place a Deposit</h4>
                     <p className="text-gray-700">
-                      Once you've found a vehicle you want to purchase, place a deposit to reserve it. This removes the
+                      Once you&apos;ve found a vehicle you want to purchase, place a deposit to reserve it. This removes the
                       vehicle from our available inventory while you complete the transaction.
                     </p>
                   </div>
@@ -194,7 +194,7 @@ export default function BuyingProcessPage() {
                   <div>
                     <h4 className="font-medium mb-2">Receive Purchase Confirmation</h4>
                     <p className="text-gray-700">
-                      After your deposit is processed, you'll receive a purchase confirmation and detailed invoice for
+                      After your deposit is processed, you&apos;ll receive a purchase confirmation and detailed invoice for
                       the remaining balance.
                     </p>
                   </div>
@@ -207,7 +207,7 @@ export default function BuyingProcessPage() {
                   <div>
                     <h4 className="font-medium mb-2">Complete Payment</h4>
                     <p className="text-gray-700">
-                      Pay the remaining balance to finalize your purchase. Once payment is complete, we'll begin the
+                      Pay the remaining balance to finalize your purchase. Once payment is complete, we&apos;ll begin the
                       shipping process.
                     </p>
                   </div>
@@ -218,7 +218,7 @@ export default function BuyingProcessPage() {
             <div className="bg-white p-6 rounded-lg shadow-sm">
               <h3 className="text-xl font-bold mb-4">Vehicle Sourcing</h3>
               <p className="text-gray-700 mb-4">
-                If you can't find the specific vehicle you're looking for in our inventory, we can source it for you
+                If you can&apos;t find the specific vehicle you&apos;re looking for in our inventory, we can source it for you
                 from our extensive network of dealers and auctions.
               </p>
 
@@ -230,7 +230,7 @@ export default function BuyingProcessPage() {
                   <div>
                     <h4 className="font-medium mb-2">Submit Vehicle Requirements</h4>
                     <p className="text-gray-700">
-                      Provide detailed specifications for the vehicle you're looking for, including make, model, year
+                      Provide detailed specifications for the vehicle you&apos;re looking for, including make, model, year
                       range, features, condition, and budget.
                     </p>
                   </div>
@@ -269,7 +269,7 @@ export default function BuyingProcessPage() {
                   <div>
                     <h4 className="font-medium mb-2">Vehicle Acquisition</h4>
                     <p className="text-gray-700">
-                      We'll acquire the vehicle on your behalf, conduct a thorough inspection, and provide you with
+                      We&apos;ll acquire the vehicle on your behalf, conduct a thorough inspection, and provide you with
                       confirmation and detailed information.
                     </p>
                   </div>
@@ -282,7 +282,7 @@ export default function BuyingProcessPage() {
                   <div>
                     <h4 className="font-medium mb-2">Complete Purchase</h4>
                     <p className="text-gray-700">
-                      Pay the remaining balance to finalize your purchase. Once payment is complete, we'll begin the
+                      Pay the remaining balance to finalize your purchase. Once payment is complete, we&apos;ll begin the
                       shipping process.
                     </p>
                   </div>
@@ -325,7 +325,7 @@ export default function BuyingProcessPage() {
               <div>
                 <h3 className="text-lg font-bold mb-3">Tracking and Updates</h3>
                 <p className="text-gray-700">
-                  Throughout the shipping process, you'll receive regular updates on your vehicle's status and location.
+                  Throughout the shipping process, you&apos;ll receive regular updates on your vehicle&apos;s status and location.
                   You can also track your shipment through your account dashboard.
                 </p>
               </div>
@@ -333,7 +333,7 @@ export default function BuyingProcessPage() {
               <div>
                 <h3 className="text-lg font-bold mb-3">Arrival and Delivery</h3>
                 <p className="text-gray-700">
-                  When your vehicle arrives at the destination port, we'll notify you and provide guidance on the
+                  When your vehicle arrives at the destination port, we&apos;ll notify you and provide guidance on the
                   customs clearance process and taking possession of your vehicle.
                 </p>
               </div>
@@ -345,7 +345,7 @@ export default function BuyingProcessPage() {
           <div className="bg-white p-6 rounded-lg shadow-sm mb-8">
             <p className="text-gray-700 mb-4">
               When purchasing a vehicle through AuctionExport, there are several fees and costs to consider beyond the
-              vehicle's purchase price:
+              vehicle&apos;s purchase price:
             </p>
 
             <div className="overflow-x-auto">
@@ -359,7 +359,7 @@ export default function BuyingProcessPage() {
                 </thead>
                 <tbody className="divide-y divide-gray-200">
                   <tr>
-                    <td className="py-3 px-4 font-medium">Buyer's Premium</td>
+                    <td className="py-3 px-4 font-medium">Buyer&apos;s Premium</td>
                     <td className="py-3 px-4">Service fee for purchasing the vehicle</td>
                     <td className="py-3 px-4">5-10% of vehicle price</td>
                   </tr>
@@ -380,7 +380,7 @@ export default function BuyingProcessPage() {
                   </tr>
                   <tr>
                     <td className="py-3 px-4 font-medium">Import Duties & Taxes</td>
-                    <td className="py-3 px-4">Fees paid to your country's customs authority</td>
+                    <td className="py-3 px-4">Fees paid to your country&apos;s customs authority</td>
                     <td className="py-3 px-4">Varies by country (typically 10-100% of vehicle value)</td>
                   </tr>
                 </tbody>

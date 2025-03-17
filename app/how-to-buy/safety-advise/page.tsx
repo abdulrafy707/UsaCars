@@ -36,7 +36,7 @@ export default function SafetyAdvicePage() {
           <article className="bg-white p-6 rounded-lg shadow-sm mb-8">
             <h2 className="text-2xl font-bold mb-4">Stay Safe: Be Aware of Fraud</h2>
             <p className="text-gray-700 mb-4">
-              With the rise of online vehicle purchasing platforms, it's essential to be vigilant and informed to protect yourself from potential scams. Here are some guidelines to ensure a safe transaction:
+              With the rise of online vehicle purchasing platforms, it&apos;s essential to be vigilant and informed to protect yourself from potential scams. Here are some guidelines to ensure a safe transaction:
             </p>
 
             <section className="mb-6">
@@ -49,7 +49,7 @@ export default function SafetyAdvicePage() {
             <section className="mb-6">
               <h3 className="text-xl font-semibold mb-2">Beware of Deceptive Emails</h3>
               <p className="text-gray-700">
-                Scammers may use email addresses similar to legitimate companies. Always verify the sender's email address and avoid clicking on suspicious links.
+                Scammers may use email addresses similar to legitimate companies. Always verify the sender&apos;s email address and avoid clicking on suspicious links.
               </p>
             </section>
 

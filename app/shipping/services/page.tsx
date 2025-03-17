@@ -272,7 +272,7 @@ export default function ShippingServicesPage() {
             </div>
             
             <p className="text-gray-700">
-              Don't see your country listed? Contact our shipping department to confirm service availability and shipping options for your specific destination.
+              Don&apos;t see your country listed? Contact our shipping department to confirm service availability and shipping options for your specific destination.
             </p>
           </div>
 
@@ -294,7 +294,7 @@ export default function ShippingServicesPage() {
                 <div className="absolute left-2 -top-1 w-5 h-5 rounded-full bg-blue-100 border-2 border-blue-600"></div>
                 <h3 className="text-lg font-bold mb-2">Vehicle Pickup (3-7 days)</h3>
                 <p className="text-gray-700">
-                  Vehicle is picked up from the auction facility, dealership, or seller's location.
+                  Vehicle is picked up from the auction facility, dealership, or seller&apos;s location.
                 </p>
               </div>
               

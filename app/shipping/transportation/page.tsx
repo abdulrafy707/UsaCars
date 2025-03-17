@@ -103,7 +103,7 @@ export default function TransportationPage() {
                 <h3 className="text-lg font-bold">Ocean Shipping</h3>
               </div>
               <p className="text-gray-700 mb-4">
-                Once at the port, your vehicle will be prepared for ocean shipping. Depending on the vehicle's condition and destination, we'll use either RoRo (Roll-on/Roll-off) or container shipping methods.
+                Once at the port, your vehicle will be prepared for ocean shipping. Depending on the vehicle&apos;s condition and destination, we&apos;ll use either RoRo (Roll-on/Roll-off) or container shipping methods.
               </p>
               <ul className="list-disc pl-5 space-y-2 text-gray-700">
                 <li>Customs clearance at the exit port</li>
@@ -226,7 +226,7 @@ export default function TransportationPage() {
               <div>
                 <h3 className="font-medium mb-2">Can I track my vehicle during transportation?</h3>
                 <p className="text-gray-700">
-                  Yes, we provide tracking information once your vehicle is shipped. You'll receive regular updates on its status and location throughout the transportation process.
+                  Yes, we provide tracking information once your vehicle is shipped. You&apos;ll receive regular updates on its status and location throughout the transportation process.
                 </p>
               </div>
               <div>
@@ -238,7 +238,7 @@ export default function TransportationPage() {
               <div>
                 <h3 className="font-medium mb-2">Can I choose which exit port to use?</h3>
                 <p className="text-gray-700">
-                  While we typically select the most efficient exit port based on your vehicle's location and destination, you can request a specific port if needed. This may affect the transportation timeline and cost.
+                  While we typically select the most efficient exit port based on your vehicle&apos;s location and destination, you can request a specific port if needed. This may affect the transportation timeline and cost.
                 </p>
               </div>
             </div>

@@ -65,7 +65,7 @@ export default function PaymentPage() {
           <div className="bg-gray-50 p-6 rounded-lg mb-8">
             <h2 className="text-xl font-bold mb-4">Understanding the Payment Process</h2>
             <p className="text-gray-700 mb-4">
-              After selecting your vehicle and placing a deposit, you'll need to complete the payment process to finalize your purchase. We offer several secure payment methods to accommodate customers worldwide.
+              After selecting your vehicle and placing a deposit, you&apos;ll need to complete the payment process to finalize your purchase. We offer several secure payment methods to accommodate customers worldwide.
             </p>
           </div>
 

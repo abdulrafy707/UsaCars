@@ -117,7 +117,7 @@ export default function HowToBuyGeneralPage() {
                 <div>
                   <h3 className="text-lg font-bold mb-2">Deposit</h3>
                   <p className="text-gray-700 mb-4">
-                    Once you've found a vehicle you want to purchase, you'll need to place a deposit to secure it. The deposit amount varies based on the vehicle's price and your membership level.
+                    Once you&apos;ve found a vehicle you want to purchase, you&apos;ll need to place a deposit to secure it. The deposit amount varies based on the vehicle&apos;s price and your membership level.
                   </p>
                   <Link href="/how-to-buy/deposit" className="text-blue-600 hover:underline font-medium">
                     Learn more about deposits
@@ -134,7 +134,7 @@ export default function HowToBuyGeneralPage() {
                 <div>
                   <h3 className="text-lg font-bold mb-2">Purchase Confirmation</h3>
                   <p className="text-gray-700 mb-4">
-                    After your deposit is received, we'll confirm the purchase and provide you with a detailed invoice that includes the vehicle cost, shipping fees, and any additional services you've requested.
+                    After your deposit is received, we&apos;ll confirm the purchase and provide you with a detailed invoice that includes the vehicle cost, shipping fees, and any additional services you&apos;ve requested.
                   </p>
                   <Link href="/how-to-buy/buying-process" className="text-blue-600 hover:underline font-medium">
                     Learn more about the buying process
@@ -168,7 +168,7 @@ export default function HowToBuyGeneralPage() {
                 <div>
                   <h3 className="text-lg font-bold mb-2">Shipping</h3>
                   <p className="text-gray-700 mb-4">
-                    Once payment is complete, we'll arrange for your vehicle to be shipped to your destination. You'll receive tracking information and regular updates throughout the shipping process.
+                    Once payment is complete, we&apos;ll arrange for your vehicle to be shipped to your destination. You&apos;ll receive tracking information and regular updates throughout the shipping process.
                   </p>
                   <Link href="/shipping/general" className="text-blue-600 hover:underline font-medium">
                     Learn more about shipping
@@ -185,7 +185,7 @@ export default function HowToBuyGeneralPage() {
                 <div>
                   <h3 className="text-lg font-bold mb-2">Delivery</h3>
                   <p className="text-gray-700 mb-4">
-                    Your vehicle will arrive at the destination port, where you'll need to complete customs clearance and take possession. We can provide guidance and assistance with this process.
+                    Your vehicle will arrive at the destination port, where you&apos;ll need to complete customs clearance and take possession. We can provide guidance and assistance with this process.
                   </p>
                   <Link href="/shipping/receiving-your-car" className="text-blue-600 hover:underline font-medium">
                     Learn more about receiving your vehicle

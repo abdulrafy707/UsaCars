@@ -65,7 +65,7 @@ export default function RegistrationPage() {
           <div className="bg-gray-50 p-6 rounded-lg mb-8">
             <h2 className="text-xl font-bold mb-4">Creating Your AuctionExport Account</h2>
             <p className="text-gray-700 mb-4">
-              Registration is the first step to accessing our platform's features and purchasing vehicles. Creating an account is free, quick, and gives you immediate access to browse our inventory and use basic features.
+              Registration is the first step to accessing our platform&apos;s features and purchasing vehicles. Creating an account is free, quick, and gives you immediate access to browse our inventory and use basic features.
             </p>
             <p className="text-gray-700">
               Follow the steps below to register and set up your account with AuctionExport.
@@ -121,10 +121,10 @@ export default function RegistrationPage() {
                 <div>
                   <h3 className="text-lg font-bold mb-2">Verify Your Email</h3>
                   <p className="text-gray-700 mb-4">
-                    After submitting the registration form, you'll receive a verification email. Click the link in the email to verify your account and activate it.
+                    After submitting the registration form, you&apos;ll receive a verification email. Click the link in the email to verify your account and activate it.
                   </p>
                   <p className="text-gray-700">
-                    If you don't receive the verification email within a few minutes, check your spam folder or request a new verification email from the login page.
+                    If you don&apos;t receive the verification email within a few minutes, check your spam folder or request a new verification email from the login page.
                   </p>
                 </div>
               </div>
