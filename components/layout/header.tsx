@@ -5,7 +5,7 @@ import type React from "react"
 import { useState, useEffect } from "react"
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
-import { Search, ChevronDown, Menu, X, Globe } from "lucide-react"
+import { Search, ChevronDown, Menu, X, Globe } from 'lucide-react'
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select"
 import { CustomDropdown, CustomDropdownItem } from "@/components/ui/custom-dropdown"
 
@@ -42,14 +42,14 @@ export function Header() {
       <div className="max-w-7xl mx-auto flex h-16 items-center justify-between px-4 md:px-8">
         <div className="flex items-center">
           {/* Logo */}
-          <Link href="#" className="mr-6">
+          <Link href="/" className="mr-6">
             <img src="/usacarslogo.PNG" alt="USA Cars Logo" className="h-10 object-contain" />
           </Link>
 
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center gap-8">
             <Link
-              href="#"
+              href="/"
               className="text-yellow-400 font-medium text-sm uppercase tracking-wide hover:text-yellow-300 transition-colors"
             >
               Home
@@ -63,17 +63,17 @@ export function Header() {
               }
             >
               <CustomDropdownItem>
-                <Link href="#" className="block w-full">
+                <Link href="/shipping/calculator" className="block w-full">
                   Shipping Calculator
                 </Link>
               </CustomDropdownItem>
               <CustomDropdownItem>
-                <Link href="#" className="block w-full">
+                <Link href="/shipping/services" className="block w-full">
                   Shipping Services
                 </Link>
               </CustomDropdownItem>
               <CustomDropdownItem>
-                <Link href="#" className="block w-full">
+                <Link href="/shipping/receiving-your-car" className="block w-full">
                   Receive your car at destination port
                 </Link>
               </CustomDropdownItem>
@@ -87,22 +87,22 @@ export function Header() {
               }
             >
               <CustomDropdownItem>
-                <Link href="#" className="block w-full">
+                <Link href="/how-to-buy/general" className="block w-full">
                   General Registration
                 </Link>
               </CustomDropdownItem>
               <CustomDropdownItem>
-                <Link href="#" className="block w-full">
+                <Link href="/how-to-buy/deposit" className="block w-full">
                   Deposit
                 </Link>
               </CustomDropdownItem>
               <CustomDropdownItem>
-                <Link href="#" className="block w-full">
+                <Link href="/how-to-buy/buying-process" className="block w-full">
                   Vehicle purchase
                 </Link>
               </CustomDropdownItem>
               <CustomDropdownItem>
-                <Link href="#" className="block w-full">
+                <Link href="/how-to-buy/payment" className="block w-full">
                   Payment
                 </Link>
               </CustomDropdownItem>
@@ -112,17 +112,17 @@ export function Header() {
                 </Link>
               </CustomDropdownItem>
               <CustomDropdownItem>
-                <Link href="#" className="block w-full">
+                <Link href="/shipping/general" className="block w-full">
                   Shipping
                 </Link>
               </CustomDropdownItem>
               <CustomDropdownItem>
-                <Link href="#" className="block w-full">
+                <Link href="/how-to-buy/safety-advise" className="block w-full">
                   Safety advice
                 </Link>
               </CustomDropdownItem>
               <CustomDropdownItem>
-                <Link href="#" className="block w-full">
+                <Link href="/how-to-buy/membership" className="block w-full">
                   Membership levels
                 </Link>
               </CustomDropdownItem>
@@ -136,7 +136,7 @@ export function Header() {
               }
             >
               <CustomDropdownItem>
-                <Link href="#" className="block w-full">
+                <Link href="/about-us/company" className="block w-full">
                   Company
                 </Link>
               </CustomDropdownItem>
@@ -160,7 +160,7 @@ export function Header() {
               }
             >
               <CustomDropdownItem>
-                <Link href="#" className="block w-full">
+                <Link href="/help/video-guides" className="block w-full">
                   Video Guides
                 </Link>
               </CustomDropdownItem>
@@ -175,14 +175,14 @@ export function Header() {
                 </Link>
               </CustomDropdownItem>
               <CustomDropdownItem>
-                <Link href="#" className="block w-full">
+                <Link href="/help/faq" className="block w-full">
                   FAQ
                 </Link>
               </CustomDropdownItem>
             </CustomDropdown>
 
             <Link
-              href="#"
+              href="/search"
               className="text-white font-medium text-sm uppercase tracking-wide hover:text-yellow-400 transition-colors"
             >
               Search
@@ -227,16 +227,18 @@ export function Header() {
 
           {/* Login link - hidden on mobile */}
           <Link
-            href="#"
+           href="/login"
             className="text-white font-medium text-sm uppercase tracking-wide hover:text-yellow-400 hidden sm:block transition-colors"
           >
             Log in
           </Link>
 
           {/* Register button - always visible but smaller on mobile */}
-          <Button className="bg-yellow-400 text-black hover:bg-yellow-500 px-3 sm:px-5 py-2 text-sm font-medium uppercase tracking-wide transition-colors">
-            Register
-          </Button>
+          <Link href="/register">
+  <Button className="bg-yellow-400 text-black hover:bg-yellow-500 px-3 sm:px-5 py-2 text-sm font-medium uppercase tracking-wide transition-colors">
+    Register
+  </Button>
+</Link>
 
           {/* Mobile menu button */}
           <Button
@@ -254,51 +256,51 @@ export function Header() {
       {mobileMenuOpen && (
         <div className="md:hidden bg-black border-t border-gray-800">
           <div className="max-w-7xl mx-auto py-4 px-4 space-y-4">
-            <Link href="#" className="block text-yellow-400 font-medium text-sm uppercase tracking-wide py-2">
+            <Link href="/" className="block text-yellow-400 font-medium text-sm uppercase tracking-wide py-2">
               Home
             </Link>
 
             <MobileDropdown title="Shipping & Logistics">
-              <Link href="#" className="block py-2 pl-4 text-gray-300 hover:text-yellow-400 transition-colors">
+              <Link href="/shipping/calculator" className="block py-2 pl-4 text-gray-300 hover:text-yellow-400 transition-colors">
                 Shipping Calculator
               </Link>
-              <Link href="#" className="block py-2 pl-4 text-gray-300 hover:text-yellow-400 transition-colors">
+              <Link href="/shipping/services" className="block py-2 pl-4 text-gray-300 hover:text-yellow-400 transition-colors">
                 Shipping Services
               </Link>
-              <Link href="#" className="block py-2 pl-4 text-gray-300 hover:text-yellow-400 transition-colors">
+              <Link href="/shipping/receiving-your-car" className="block py-2 pl-4 text-gray-300 hover:text-yellow-400 transition-colors">
                 Receive your car at destination port
               </Link>
             </MobileDropdown>
 
             <MobileDropdown title="How to buy">
-              <Link href="#" className="block py-2 pl-4 text-gray-300 hover:text-yellow-400 transition-colors">
+              <Link href="/how-to-buy/general" className="block py-2 pl-4 text-gray-300 hover:text-yellow-400 transition-colors">
                 General Registration
               </Link>
-              <Link href="#" className="block py-2 pl-4 text-gray-300 hover:text-yellow-400 transition-colors">
+              <Link href="/how-to-buy/deposit" className="block py-2 pl-4 text-gray-300 hover:text-yellow-400 transition-colors">
                 Deposit
               </Link>
-              <Link href="#" className="block py-2 pl-4 text-gray-300 hover:text-yellow-400 transition-colors">
+              <Link href="/how-to-buy/buying-process" className="block py-2 pl-4 text-gray-300 hover:text-yellow-400 transition-colors">
                 Vehicle purchase
               </Link>
-              <Link href="#" className="block py-2 pl-4 text-gray-300 hover:text-yellow-400 transition-colors">
+              <Link href="/how-to-buy/payment" className="block py-2 pl-4 text-gray-300 hover:text-yellow-400 transition-colors">
                 Payment
               </Link>
               <Link href="#" className="block py-2 pl-4 text-gray-300 hover:text-yellow-400 transition-colors">
                 Fees
               </Link>
-              <Link href="#" className="block py-2 pl-4 text-gray-300 hover:text-yellow-400 transition-colors">
+              <Link href="/shipping/general" className="block py-2 pl-4 text-gray-300 hover:text-yellow-400 transition-colors">
                 Shipping
               </Link>
-              <Link href="#" className="block py-2 pl-4 text-gray-300 hover:text-yellow-400 transition-colors">
+              <Link href="/how-to-buy/safety-advise" className="block py-2 pl-4 text-gray-300 hover:text-yellow-400 transition-colors">
                 Safety advice
               </Link>
-              <Link href="#" className="block py-2 pl-4 text-gray-300 hover:text-yellow-400 transition-colors">
+              <Link href="/how-to-buy/membership" className="block py-2 pl-4 text-gray-300 hover:text-yellow-400 transition-colors">
                 Membership levels
               </Link>
             </MobileDropdown>
 
             <MobileDropdown title="About us">
-              <Link href="#" className="block py-2 pl-4 text-gray-300 hover:text-yellow-400 transition-colors">
+              <Link href="/about-us/company" className="block py-2 pl-4 text-gray-300 hover:text-yellow-400 transition-colors">
                 Company
               </Link>
               <Link href="#" className="block py-2 pl-4 text-gray-300 hover:text-yellow-400 transition-colors">
@@ -310,7 +312,7 @@ export function Header() {
             </MobileDropdown>
 
             <MobileDropdown title="Help">
-              <Link href="#" className="block py-2 pl-4 text-gray-300 hover:text-yellow-400 transition-colors">
+              <Link href="/help/video-guides" className="block py-2 pl-4 text-gray-300 hover:text-yellow-400 transition-colors">
                 Video Guides
               </Link>
               <Link href="#" className="block py-2 pl-4 text-gray-300 hover:text-yellow-400 transition-colors">
@@ -319,13 +321,13 @@ export function Header() {
               <Link href="#" className="block py-2 pl-4 text-gray-300 hover:text-yellow-400 transition-colors">
                 Rules & policies
               </Link>
-              <Link href="#" className="block py-2 pl-4 text-gray-300 hover:text-yellow-400 transition-colors">
+              <Link href="/help/faq" className="block py-2 pl-4 text-gray-300 hover:text-yellow-400 transition-colors">
                 FAQ
               </Link>
             </MobileDropdown>
 
             <Link
-              href="#"
+              href="/search"
               className="block text-white font-medium text-sm uppercase tracking-wide py-2 hover:text-yellow-400 transition-colors"
             >
               Search
@@ -349,7 +351,7 @@ export function Header() {
             {/* Mobile-only login link */}
             <div className="sm:hidden pt-2 border-t border-gray-800">
               <Link
-                href="#"
+                href="/login"
                 className="block text-white font-medium text-sm uppercase tracking-wide py-2 hover:text-yellow-400 transition-colors"
               >
                 Log in
@@ -379,4 +381,3 @@ function MobileDropdown({ title, children }: { title: string; children: React.Re
     </div>
   )
 }
-

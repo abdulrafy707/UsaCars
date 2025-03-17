@@ -21,6 +21,11 @@ module.exports = {
         protocol: 'https',
         hostname: 'i.insider.com',
       },
+
+      {
+        protocol: "https",
+        hostname: "sjc.microlink.io",
+      },
      
     ],
   },
