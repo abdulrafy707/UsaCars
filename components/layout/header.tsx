@@ -335,18 +335,23 @@ export function Header() {
 
             {/* Mobile-only language selector */}
             <div className="xs:hidden py-2">
-              <p className="text-gray-400 mb-2 text-sm uppercase tracking-wide">Language</p>
-              <div className="flex gap-4">
-                <button className="flex items-center gap-2 text-yellow-400 transition-colors">
-                  <img src="https://flagcdn.com/w20/us.png" alt="US Flag" className="h-3 w-5 object-cover" />
-                  <span className="text-sm">English</span>
-                </button>
-                <button className="flex items-center gap-2 text-white hover:text-yellow-400 transition-colors">
-                  <img src="https://flagcdn.com/w20/es.png" alt="Spanish Flag" className="h-3 w-5 object-cover" />
-                  <span className="text-sm">Español</span>
-                </button>
-              </div>
-            </div>
+  <p className="text-gray-400 mb-2 text-sm uppercase tracking-wide">Language</p>
+  <div className="flex gap-4">
+    <button className="flex items-center gap-2 text-yellow-400 transition-colors">
+      <img src="https://flagcdn.com/w20/us.png" alt="US Flag" className="h-3 w-5 object-cover" />
+      <span className="text-sm">English</span>
+    </button>
+    <button className="flex items-center gap-2 text-white hover:text-yellow-400 transition-colors">
+      <img src="https://flagcdn.com/w20/es.png" alt="Spanish Flag" className="h-3 w-5 object-cover" />
+      <span className="text-sm">Español</span>
+    </button>
+    <button className="flex items-center gap-2 text-white hover:text-yellow-400 transition-colors">
+      <img src="https://flagcdn.com/w20/bg.png" alt="Bulgarian Flag" className="h-3 w-5 object-cover" />
+      <span className="text-sm">Български</span>
+    </button>
+  </div>
+</div>
+
 
             {/* Mobile-only login link */}
             <div className="sm:hidden pt-2 border-t border-gray-800">

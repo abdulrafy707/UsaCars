@@ -30,7 +30,7 @@ function ReviewCard() {
         <div className="space-y-4 text-center">
           <div className="flex justify-center">
             <Image
-              src="/placeholder.svg?height=80&width=80"
+              src="/face.png?height=80&width=80"
               alt="Customer"
               width={80}
               height={80}
