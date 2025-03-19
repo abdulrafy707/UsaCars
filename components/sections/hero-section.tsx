@@ -8,14 +8,14 @@ import { ChevronLeft, ChevronRight } from "lucide-react"
 const slides = [
   {
     image: "https://images.unsplash.com/photo-1583121274602-3e2820c69888?q=80&w=2070&auto=format&fit=crop",
-    fallbackImage: "/placeholder.svg",
+    fallbackImage: "/ca1.png",
 
     title: "WELCOME TO <span class='text-amber-400'>USA CARS</span>",
     description: "Discover the best deals on high-quality used cars. Fast shipping and easy buying process!",
   },
   {
     image: "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?q=80&w=2070&auto=format&fit=crop",
-    fallbackImage: "/placeholder.svg",
+    fallbackImage: "/car2.png",
 
     title: "BID RECOMMENDATION <span class='text-amber-400'>TOOLS</span>",
     description:
@@ -23,7 +23,7 @@ const slides = [
   },
   {
     image: "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?q=80&w=2070&auto=format&fit=crop",
-    fallbackImage: "/placeholder.svg",
+    fallbackImage: "/car3.png",
 
     title: "DIRECT <span class='text-amber-400'>PURCHASES</span>",
     description:
