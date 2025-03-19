@@ -20,7 +20,7 @@ export default function UsaCarsLanding() {
       <StatsSection />
       <ServicesSection />
       <ReviewsSection />
-      <CountriesSection />
+      {/* <CountriesSection /> */}
       <CarBrandsSection />
       <NewsSection />
     </div>
