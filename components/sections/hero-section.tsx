@@ -104,9 +104,9 @@ export function HeroSection() {
           <div className="absolute inset-0 bg-gradient-to-b from-black/60 via-black/40 to-black/70 z-10" />
 
             <Image
-              onError={(e) => {
-                e.currentTarget.src = slide.fallbackImage;
-              }}
+            onError={(e) => {
+              e.currentTarget.src = slide.fallbackImage;
+            }}
 
             src={slide.image || "/placeholder.svg"}
             alt={`USA Cars Slide ${index + 1}`}
@@ -132,13 +132,12 @@ export function HeroSection() {
                 Register Now
               </Button>
               <Button
-  size="lg"
-  variant="outline"
-  className="border-white/80 text-white bg-white/5 hover:bg-white/10 font-medium px-8 py-6 text-base rounded-md backdrop-blur-sm"
->
-  Browse Cars
-</Button>
-
+                size="lg"
+                variant="outline"
+                className="border-white text-white hover:bg-white/10 font-medium px-8 py-6 text-base rounded-md backdrop-blur-sm"
+              >
+                Browse Cars
+              </Button>
             </div>
           </div>
         </div>
