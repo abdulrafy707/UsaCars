@@ -1,8 +1,8 @@
-"use client"
+"use client";
 
-import { useState } from "react"
-import { Button } from "@/components/ui/button"
-import dynamic from "next/dynamic"
+import { useState } from "react";
+import { Button } from "@/components/ui/button";
+import dynamic from "next/dynamic";
 
 const MapComponent = dynamic(() => import("./map-component"), {
   ssr: false,
@@ -13,18 +13,23 @@ const MapComponent = dynamic(() => import("./map-component"), {
   ),
 });
 
+// Define country type
+interface Country {
+  name: string;
+  highlighted?: boolean;
+}
 
 export function CountriesSection() {
-  const [showAllCountries, setShowAllCountries] = useState(false)
+  const [showAllCountries, setShowAllCountries] = useState(false);
 
-  const highlightedCountries = [
+  const highlightedCountries: Country[] = [
     { name: "Nigeria", highlighted: true },
     { name: "Ghana", highlighted: true },
     { name: "Bulgaria", highlighted: true },
     { name: "United Arab Emirates", highlighted: true },
-  ]
+  ];
 
-  const allCountries = [
+  const allCountries: Country[] = [
     ...highlightedCountries,
     { name: "United Kingdom" },
     { name: "Albania" },
@@ -41,16 +46,16 @@ export function CountriesSection() {
     { name: "Romania" },
     { name: "Senegal" },
     { name: "Saudi Arabia" },
-  ]
+  ];
 
-  // Group countries into columns
-  const columns = [[], [], [], [], []]
-  const countryList = showAllCountries ? allCountries : allCountries.slice(0, 20)
+  // ✅ Define columns array with explicit types
+  const columns: Country[][] = [[], [], [], [], []];
+  const countryList = showAllCountries ? allCountries : allCountries.slice(0, 20);
 
   countryList.forEach((country, index) => {
-    const columnIndex = index % 5
-    columns[columnIndex].push(country)
-  })
+    const columnIndex = index % 5;
+    columns[columnIndex].push(country);
+  });
 
   return (
     <section className="w-full py-12 md:py-24 bg-white">
@@ -85,16 +90,11 @@ export function CountriesSection() {
         </div>
       </div>
     </section>
-  )
-}
-
-interface Country {
-  name: string
-  highlighted?: boolean
+  );
 }
 
 interface CountryColumnProps {
-  countries: Country[]
+  countries: Country[];
 }
 
 function CountryColumn({ countries }: CountryColumnProps) {
@@ -106,6 +106,5 @@ function CountryColumn({ countries }: CountryColumnProps) {
         </p>
       ))}
     </div>
-  )
+  );
 }
-
