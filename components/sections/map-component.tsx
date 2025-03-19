@@ -1,36 +1,24 @@
 "use client";
 
-import { MapContainer, TileLayer, GeoJSON } from "react-leaflet";
 import { useEffect, useState } from "react";
+import { MapContainer, TileLayer, GeoJSON } from "react-leaflet";
 import type { Feature, FeatureCollection } from "geojson";
 
-// Define props for the component
-interface MapComponentProps {
-  highlightedCountries: string[];
-}
+// ✅ Dynamically import Leaflet CSS inside useEffect
+export default function MapComponent({ highlightedCountries }: { highlightedCountries: string[] }) {
+  const [geoData, setGeoData] = useState<FeatureCollection | null>(null);
 
-// Define type for geoJSON state
-type GeoDataType = FeatureCollection | null;
-
-export default function MapComponent({ highlightedCountries }: MapComponentProps) {
-  const [geoData, setGeoData] = useState<GeoDataType>(null);
-
-  // Load Leaflet CSS on the client to avoid SSR issues
   useEffect(() => {
-    import("leaflet/dist/leaflet.css").catch((err) =>
-      console.error("Failed to load Leaflet CSS:", err),
-    );
+    import("leaflet/dist/leaflet.css").catch((err) => console.error("Failed to load Leaflet CSS:", err));
   }, []);
 
-  // Fetch GeoJSON data
   useEffect(() => {
     fetch("https://raw.githubusercontent.com/holtzy/D3-graph-gallery/master/DATA/world.geojson")
       .then((response) => response.json())
-      .then((data: FeatureCollection) => setGeoData(data))
+      .then((data) => setGeoData(data))
       .catch((error) => console.error("Error loading GeoJSON:", error));
   }, []);
 
-  // Style function for each country
   const countryStyle = (feature: Feature) => {
     const countryName = feature.properties?.name || "";
     const isHighlighted = highlightedCountries.some((country) =>
